@@ -68,9 +68,12 @@ function custom_login_page_background() {
             outline: none !important;
         }
 		
-		#backtoblog {
-			text-align: center;
-		}
+	#backtoblog {
+		text-align: center;
+	}
+	#backtoblog a {
+    		color: var(--text-color) !important;
+	}
     </style>
     <?php
 }
